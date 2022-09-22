@@ -1,0 +1,85 @@
+{
+    "0": {
+        "maxkwh": 25,
+        "maxprice": 0.37
+    },
+    "1": {
+        "maxkwh": 15,
+        "maxprice": 0.32
+    },
+    "2": {
+        "maxkwh": 0
+    },
+    "3": {
+        "maxkwh": 0
+    },
+    "4": {
+        "maxkwh": 0
+    },
+    "5": {
+        "maxkwh": 0
+    },
+    "6": {
+        "maxkwh": 0
+    },
+    "7": {
+        "maxkwh": 0
+    },
+    "8": {
+        "maxkwh": 0
+    },
+    "9": {
+        "maxkwh": 0
+    },
+    "10": {
+        "maxkwh": 0
+    },
+    "11": {
+        "maxkwh": 0
+    },
+    "12": {
+        "maxkwh": 0
+    },
+    "13": {
+        "maxkwh": 0
+    },
+    "14": {
+        "maxkwh": 0
+    },
+    "15": {
+        "maxkwh": 20,
+        "maxprice": 0.35
+    },
+    "16": {
+        "maxkwh": 40,
+        "maxprice": 0.35
+    },
+    "17": {
+        "maxkwh": 45,
+        "maxprice": 0.37
+    },
+    "18": {
+        "maxkwh": 45,
+        "maxprice": 0.40
+    },
+    "19": {
+        "maxkwh": 50,
+        "maxprice": 0.44
+    },
+    "20": {
+        "maxkwh": 57,
+        "maxprice": 0.49
+    },
+    "21": {
+        "maxkwh": 55,
+        "maxprice": 0.47
+    },
+    "22": {
+        "maxkwh": 40,
+        "maxprice": 0.43
+    },
+    "23": {
+        "maxkwh": 35,
+        "maxprice": 0.40
+    }
+}

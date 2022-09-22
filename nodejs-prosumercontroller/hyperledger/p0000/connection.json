@@ -1,0 +1,43 @@
+{
+    "certificateAuthorities": {
+        "p0000ca-api.127-0-0-1.nip.io:8080": {
+            "url": "http://p0000ca-api.127-0-0-1.nip.io:8080"
+        }
+    },
+    "client": {
+        "connection": {
+            "timeout": {
+                "orderer": "300",
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        },
+        "organization": "p0000"
+    },
+    "display_name": "p0000 Gateway",
+    "id": "p0000gateway",
+    "name": "p0000 Gateway",
+    "organizations": {
+        "p0000": {
+            "certificateAuthorities": [
+                "p0000ca-api.127-0-0-1.nip.io:8080"
+            ],
+            "mspid": "p0000MSP",
+            "peers": [
+                "p0000peer-api.127-0-0-1.nip.io:8080"
+            ]
+        }
+    },
+    "peers": {
+        "p0000peer-api.127-0-0-1.nip.io:8080": {
+            "grpcOptions": {
+                "grpc.default_authority": "p0000peer-api.127-0-0-1.nip.io:8080",
+                "grpc.ssl_target_name_override": "p0000peer-api.127-0-0-1.nip.io"
+            },
+            "url": "grpc://p0000peer-api.127-0-0-1.nip.io:8080"
+        }
+    },
+    "type": "gateway",
+    "version": "1.0"
+}
