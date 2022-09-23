@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "ProsumerPrefExists",
+        "transactionLabel": "A test ProsumerPrefExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "CreateProsumerPref",
+        "transactionLabel": "A test CreateProsumerPref transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "ReadProsumerPref",
+        "transactionLabel": "A test ReadProsumerPref transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "UpdateProsumerPref",
+        "transactionLabel": "A test UpdateProsumerPref transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "DeleteProsumerPref",
+        "transactionLabel": "A test DeleteProsumerPref transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]

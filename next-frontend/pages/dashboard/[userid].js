@@ -136,14 +136,14 @@ export default function Dashboard({userid}) { //({ activesales, userid }) {
             
             <Layout userid={userid}>
                 <div className={styles.footer}>
-                    <Link href={`/profile/${userid}`}><button className={styles.reload}>Edit offers &#8658;</button></Link>
+                    <Link href={`/profile/${userid}`}><button className={styles.reload}>Edit GSA offers &#8658;</button></Link>
                 </div>
             
                 <div className={styles.bodygrid}>
 
                     
                         <div className={styles.sales}>
-                            <h2>Active agreements</h2>
+                            <h2>Active GSA agreements</h2>
                             
                             { didfetchactivesales ? 
                                 <EnergyAsset sales={activeSales}/>

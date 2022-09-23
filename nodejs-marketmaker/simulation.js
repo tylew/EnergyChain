@@ -51,7 +51,9 @@ app.get('/allenergyassets/', (req, res) => {
 
 
 app.get('/initledger/', (req, res) => {
-    
+    hour = starthour
+    date = startdate
+    year = startyear
     ClearLedger();
     res.sendStatus(200)
 });

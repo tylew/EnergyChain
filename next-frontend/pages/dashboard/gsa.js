@@ -30,6 +30,13 @@ const nexthour = () => {
       });
 }
 
+const resetsim = () => {
+    // try {
+    fetch('http://localhost:4004/initledger').catch(function(err) {
+        console.log('Fetch Error :-S', err);
+      });
+}
+
 export default function Dashboard({userid}) { //({ activesales, userid }) {
     return (
         <div className={styles.gsacolorscheme}>
@@ -46,6 +53,9 @@ export default function Dashboard({userid}) { //({ activesales, userid }) {
                         </div>
                         <div>
                             <button onClick={() => nexthour()}>Next hour</button>
+                        </div>
+                        <div>
+                            <button onClick={() => resetsim()}>Reset simulation</button>
                         </div>
                     </div>
                 </div>
