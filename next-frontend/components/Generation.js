@@ -19,6 +19,7 @@ export function Generation({userid, data}) {
 
     const ppa = {
         "0000": .32,
+        "0001": 0,
         "0002": .30
     }
     // ex: 
@@ -29,7 +30,7 @@ export function Generation({userid, data}) {
         console.log(Object.keys(data)[0])
         return (
             <>
-                PPA Price: {ppa[userid]}
+                {ppa[userid] > 0 ? <div>PPA Price: {ppa[userid]}</div> : <>Not on PPA</>}
                 {Object.keys(data).map((keyName, i) => (
                     <ul>
                         <div>

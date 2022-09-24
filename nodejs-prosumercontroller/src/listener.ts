@@ -41,8 +41,7 @@ async function prosumercontroller(userid: string) {
       if (event.eventName === 'new-sale') {
         let assetid: string = 'ea' + JSON.parse(event.payload?.toString()!).date + JSON.parse(event.payload?.toString()!).time_block
         // let assetid: string[] = [event.payload?.toString()] 
-        await contract.submitTransaction('ProsumerInitialAgreement', assetid)
-        console.log(`Prosumer ${userid} agreed to asset`, assetid)
+        
       }
     };
 

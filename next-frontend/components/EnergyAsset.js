@@ -1,11 +1,25 @@
 import styles from '../styles/dynamic.dashboard.module.css'
 import clipboardy from 'clipboardy'
+import { map } from 'lodash'
 
 export function EnergyAsset({sales}) {
     
         if(Object.keys(sales).length > 0 && Object.keys(sales)[0] !== 'error') {
             console.log("------------------")
             console.log(Object.keys(sales)[0])
+            const assetkeys = new Map()
+            Object.keys(sales).map((keyName, i) => (
+                assetkeys.set(keyName, '')
+            ))
+
+            function displayassets() {
+                assetkeys.forEach((value, keyName) => {
+                    <div>
+                        {/* {Object.keys(sales).filter(e => e.)} */}
+                    </div>
+                })
+            }
+
             return (
                 Object.keys(sales).map((keyName, i) => (
 
