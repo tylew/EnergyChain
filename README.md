@@ -1,5 +1,6 @@
 # EnergyChain
 
+### Part of an IEEE BCTE 2022 case study submission
 ### A blockchain application for residential distributed energy resources. 
 
 <img style="width: 40em" src="https://user-images.githubusercontent.com/69596889/200397833-f2db643e-4f56-4e40-94b8-a9a8fa35b6de.png"/>
